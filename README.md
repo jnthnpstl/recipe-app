@@ -2,9 +2,9 @@ API integrated Web App
 
 I used Edamam API for this project
 
-![Recipe Cards](https://github.com/dev-Jonathan/recipe-app/blob/main/screenshots/cards.png?raw=true)
+![Recipe Cards](https://github.com/jnthnpstle/recipe-app/blob/main/screenshots/cards.png?raw=true)
 
-![Recipe Modal](https://github.com/dev-Jonathan/recipe-app/blob/main/screenshots/modal.png?raw=true)
+![Recipe Modal](https://github.com/jnthnpstl/recipe-app/blob/main/screenshots/modal.png?raw=true)
 
 <!-- To run this locally, clone this repository then
 follow the instructions below.
