@@ -1,0 +1,12 @@
+.cards {
+  position: relative;
+  max-width: 1800px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loading {
+  padding-top: 3rem;
+}

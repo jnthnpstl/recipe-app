@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:wght@700&family=Alumni+Sans+Inline+One&family=Caveat:wght@400;600&family=Roboto+Mono:wght@200;400&display=swap");
+
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Aboreto", cursive;
+  font-weight: 600;
+}

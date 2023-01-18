@@ -1,0 +1,73 @@
+.card {
+  min-height: 245px;
+  width: 245px;
+  margin: 2rem 1rem;
+  transition: all 0.3s ease-in-out;
+  display: grid;
+}
+
+.card-img {
+  min-height: 200px;
+}
+
+.card-img:hover {
+  cursor: pointer;
+}
+
+.border {
+  position: absolute;
+  width: 195px;
+  height: 195px;
+  border: 5px solid black;
+  transform: translateY(20px);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay {
+  width: 201px;
+  height: 200px;
+  z-index: 100;
+  border: none;
+  transform: translateY(20px);
+  transform: translateX(22px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.card-img:hover .back {
+  transform: translateX(22.7px);
+}
+
+.card-label {
+  margin-top: 18px;
+  font-size: 1rem;
+  text-shadow: 1px 1px rgba(black, 0.7);
+}
+
+img {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.view-recipe {
+  z-index: 100;
+}
+
+.card p {
+  position: relative;
+  font-size: 1.1rem;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.2);
+  color: gold;
+}
+
+.card-img:hover p {
+  transform: scale(1);
+  opacity: 1;
+}

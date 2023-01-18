@@ -1,0 +1,109 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:wght@700&family=Alumni+Sans+Inline+One&family=Alumni+Sans+Pinstripe:ital@1&family=Caveat:wght@400;600&family=Roboto+Mono:wght@200;400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya+SC:wght@700&family=Alumni+Sans+Inline+One&family=Alumni+Sans+Pinstripe&family=Caveat:wght@400;600&family=Roboto+Mono:wght@200;400&display=swap");
+.popup {
+  position: fixed;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+
+  z-index: 1000;
+  transition: visible 0s opacity 0.5s;
+  opacity: 1;
+}
+
+.popup .content {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  max-height: 80vh;
+  z-index: 2000;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0;
+  font-size: 1.5rem;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+li {
+  list-style: none;
+}
+
+.nutrients {
+  font-size: 40px;
+}
+
+.nutrients {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nutrients p {
+  font-size: 1.2rem;
+}
+
+.ingredients {
+  width: 750px;
+  text-align: left;
+}
+
+.ingredients p {
+  text-align: center;
+  font-size: larger;
+}
+.content-text {
+  position: relative;
+  padding: 2.4rem;
+}
+
+.i-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content div {
+  margin: 10px 0;
+}
+
+.content p,
+li,
+h1 {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.instructions button {
+  cursor: pointer;
+  padding: 14px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.food-name p {
+  font-size: small;
+}
+
+.instructions {
+  padding-top: 2rem;
+}
