@@ -2,7 +2,7 @@ API integrated Web App
 
 I used Edamam API for this project
 
-![Recipe Cards](https://github.com/jnthnpstle/recipe-app/blob/main/screenshots/cards.png?raw=true)
+![Recipe Cards](https://github.com/jnthnpstl/recipe-app/blob/master/screenshots/cards.png?raw=true)
 
 ![Recipe Modal](https://github.com/jnthnpstl/recipe-app/blob/main/screenshots/modal.png?raw=true)
 
@@ -12,7 +12,7 @@ follow the instructions below.
 In the /server directory, create a env file then add
 your **APP_ID** and **APP_KEY** (You can get these when you create application in Edamam). See image below for example
 
-![Recipe Modal](https://github.com/dev-Jonathan/recipe-app/blob/main/screenshots/env.png?raw=true)
+![Recipe Modal](https://github.com/jnthnpstl/recipe-app/blob/main/screenshots/env.png?raw=true)
 
 ### `npm install`
 
