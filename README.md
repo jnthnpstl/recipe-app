@@ -4,7 +4,7 @@ I used Edamam API for this project
 
 ![Recipe Cards](https://github.com/jnthnpstl/recipe-app/blob/master/screenshots/cards.png?raw=true)
 
-![Recipe Modal](https://github.com/jnthnpstl/recipe-app/blob/main/screenshots/modal.png?raw=true)
+![Recipe Modal](https://github.com/jnthnpstl/recipe-app/blob/master/screenshots/modal.png?raw=true)
 
 <!-- To run this locally, clone this repository then
 follow the instructions below.
